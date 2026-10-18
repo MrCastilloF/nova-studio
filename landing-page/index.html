@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Studio — Soluciones Digitales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="nav__logo-icon">◆</span>
+                Nova Studio
+            </div>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#inicio" class="nav__link">Inicio</a></li>
+                <li><a href="#servicios" class="nav__link">Servicios</a></li>
+                <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                <li><a href="#testimonios" class="nav__link">Testimonios</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="inicio">
+            <div class="hero__particles" aria-hidden="true"></div>
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <p class="hero__badge">🚀 Innovación digital 2026</p>
+                    <h1 class="hero__title">
+                        Transformamos ideas en
+                        <span class="gradient-text">experiencias digitales</span>
+                    </h1>
+                    <p class="hero__description">
+                        Creamos sitios web, aplicaciones y estrategias digitales
+                        que impulsan el crecimiento de tu negocio con diseño
+                        moderno y tecnología de vanguardia.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contacto" class="btn btn--primary">Comenzar proyecto</a>
+                        <a href="#servicios" class="btn btn--outline">Ver servicios ↓</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number" data-target="120">0</span>+
+                            <span class="stat__label">Proyectos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-target="98">0</span>%
+                            <span class="stat__label">Satisfacción</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-target="8">0</span>
+                            <span class="stat__label">Años</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual" aria-hidden="true">
+                    <div class="hero__card">
+                        <div class="hero__card-header">
+                            <span class="dot dot--red"></span>
+                            <span class="dot dot--yellow"></span>
+                            <span class="dot dot--green"></span>
+                        </div>
+                        <pre class="hero__code"><code><span class="code-keyword">const</span> futuro = <span class="code-fn">crear</span>({
+  diseño: <span class="code-string">"moderno"</span>,
+  tecnología: <span class="code-string">"vanguardia"</span>,
+  resultado: <span class="code-string">"éxito"</span>
+});</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICIOS ===== -->
+        <section class="services section" id="servicios">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__tag">Servicios</p>
+                    <h2 class="section__title">Lo que hacemos por ti</h2>
+                    <p class="section__subtitle">
+                        Soluciones completas para llevar tu negocio al siguiente nivel.
+                    </p>
+                </div>
+                <div class="services__grid">
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">🎨</div>
+                        <h3>Diseño Web</h3>
+                        <p>Sitios atractivos y responsivos que cautivan a tus visitantes desde el primer segundo.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">⚙️</div>
+                        <h3>Desarrollo a Medida</h3>
+                        <p>Aplicaciones web y móviles construidas con las tecnologías más actuales.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">📈</div>
+                        <h3>Marketing Digital</h3>
+                        <p>Estrategias SEO y campañas publicitarias para atraer más clientes.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">🛡️</div>
+                        <h3>Ciberseguridad</h3>
+                        <p>Protegemos tus datos y los de tus clientes con estándares de última generación.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">☁️</div>
+                        <h3>Cloud & DevOps</h3>
+                        <p>Infraestructura escalable y automatizada para tu plataforma.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-card__icon">🤖</div>
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Integramos IA en tus flujos de trabajo para automatizar y optimizar procesos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NOSOTROS ===== -->
+        <section class="about section" id="nosotros">
+            <div class="container about__grid">
+                <div class="about__content reveal">
+                    <p class="section__tag">Nosotros</p>
+                    <h2 class="section__title">Un equipo apasionado por la innovación</h2>
+                    <p>
+                        Somos un colectivo de diseñadores, desarrolladores y estrategas
+                        que comparten una misma visión: construir productos digitales
+                        que marquen la diferencia.
+                    </p>
+                    <ul class="about__list">
+                        <li>✅ Metodología ágil y transparente</li>
+                        <li>✅ Comunicación cercana durante todo el proyecto</li>
+                        <li>✅ Entregas puntuales y soporte continuo</li>
+                        <li>✅ Enfoque en resultados medibles</li>
+                    </ul>
+                </div>
+                <div class="about__visual reveal" aria-hidden="true">
+                    <div class="about__blob"></div>
+                    <div class="about__circle about__circle--1">💡</div>
+                    <div class="about__circle about__circle--2">🚀</div>
+                    <div class="about__circle about__circle--3">🎯</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIOS ===== -->
+        <section class="testimonials section" id="testimonios">
+            <div class="container">
+                <div class="section__header">
+                    <p class="section__tag">Testimonios</p>
+                    <h2 class="section__title">Lo que dicen nuestros clientes</h2>
+                </div>
+                <div class="testimonials__grid">
+                    <blockquote class="testimonial reveal">
+                        <p>"Nova Studio transformó nuestra presencia online. Las ventas aumentaron un 40% en solo tres meses."</p>
+                        <footer>
+                            <div class="testimonial__avatar">MR</div>
+                            <div>
+                                <cite>María Rojas</cite>
+                                <span>CEO, Boutique Lumen</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="testimonial reveal">
+                        <p>"Profesionales y creativos. Entendieron perfectamente lo que necesitábamos desde la primera reunión."</p>
+                        <footer>
+                            <div class="testimonial__avatar">JC</div>
+                            <div>
+                                <cite>Javier Castillo</cite>
+                                <span>Fundador, RutaFit</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="testimonial reveal">
+                        <p>"La app que desarrollaron superó nuestras expectativas. El soporte post-lanzamiento es impecable."</p>
+                        <footer>
+                            <div class="testimonial__avatar">AP</div>
+                            <div>
+                                <cite>Ana Pérez</cite>
+                                <span>Directora, EducaPlus</span>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
+        <section class="contact section" id="contacto">
+            <div class="container contact__grid">
+                <div class="contact__info reveal">
+                    <p class="section__tag">Contacto</p>
+                    <h2 class="section__title">Hablemos de tu proyecto</h2>
+                    <p>Cuéntanos qué tienes en mente y te responderemos en menos de 24 horas.</p>
+                    <div class="contact__details">
+                        <p>📧 hola@novastudio.example</p>
+                        <p>📞 +57 300 000 0000</p>
+                        <p>📍 Bogotá, Colombia</p>
+                    </div>
+                </div>
+                <form class="contact__form reveal" id="contactForm" novalidate>
+                    <div class="form__group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+                    <p class="form__status" id="formStatus" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div>
+                <div class="nav__logo">
+                    <span class="nav__logo-icon">◆</span>
+                    Nova Studio
+                </div>
+                <p>Transformamos ideas en experiencias digitales memorables.</p>
+            </div>
+            <div>
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <ul>
+                    <li>hola@novastudio.example</li>
+                    <li>+57 300 000 0000</li>
+                    <li>Bogotá, Colombia</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2026 Nova Studio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
